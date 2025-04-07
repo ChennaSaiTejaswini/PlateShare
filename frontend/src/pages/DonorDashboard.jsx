@@ -31,7 +31,7 @@ const DonorDashboard = () => {
     const fetchDonations = async () => {
       try {
         console.log("Fetching donations for donor:", donorEmail);
-        const response = await axios.get(`http://localhost:5000/api/donations-by-donor?email=${donorEmail}`);
+        const response = await axios.get(`https://plateshare-backend.onrender.com/api/donations-by-donor?email=${donorEmail}`);
   
         setDonations(response.data);
       } catch (error) {

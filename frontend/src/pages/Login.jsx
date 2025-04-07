@@ -18,7 +18,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("http://localhost:5000/api/login", formData);
+      const res = await axios.post("https://plateshare-backend.onrender.com/api/login", formData);
       console.log("Login Response:", res.data); // Log full response
       alert(res.data.message);
       localStorage.setItem("token", res.data.token); // ✅ Important

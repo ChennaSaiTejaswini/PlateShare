@@ -67,7 +67,7 @@ const DonationForm = () => {
     e.preventDefault();
     console.log("Submitting donation with data:", formData); // ✅ Debugging Step
     try {
-      await axios.post("http://localhost:5000/api/donations", formData);
+      await axios.post("https://plateshare-backend.onrender.com/api/donations", formData);
       alert("Your donation has been scheduled successfully!");
     } catch (error) {
       console.error("Error submitting donation:", error);

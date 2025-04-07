@@ -1,0 +1,106 @@
+/* CharityDashboard.css */
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background: url("../images/charity_pg.png") no-repeat center center/cover;
+}
+
+h4 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Donation Cards Layout */
+.donation-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.donation-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card-content {
+    flex-grow: 1;
+}
+
+/* Icons Styling */
+.icon {
+    font-size: 24px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/* Status Colors */
+.status-pending {
+    color: orange;
+    font-weight: bold;
+}
+
+.status-accepted {
+    color: green;
+    font-weight: bold;
+}
+
+/* Buttons */
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.button-accept {
+    background-color: #4caf50;
+    color: white;
+}
+
+.button-accept:hover {
+    background-color: #45a049;
+}
+
+.button-view {
+    background-color: #008cba;
+    color: white;
+}
+
+.button-view:hover {
+    background-color: #007bb5;
+}
+
+/* Map Container */
+.map-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.map {
+    height: 350px;
+    width: 100%;
+    border-radius: 8px;
+}

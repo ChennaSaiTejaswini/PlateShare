@@ -1,0 +1,45 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ensure it takes the full height of the viewport */
+  width: 100vw; /* Ensure it takes the full width of the viewport */
+  background-color: #f8f9fa; /* Optional: Light background */
+}
+
+.signup-card {
+  width: 500px; /* Adjust as needed */
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 768px) {
+  .signup-card {
+    padding: 1.5rem;
+  }
+
+  .signup-card h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .signup-container {
+    padding: 1rem;
+  }
+
+  .signup-card {
+    padding: 1rem;
+  }
+
+  .signup-card h2 {
+    font-size: 1.3rem;
+  }
+}

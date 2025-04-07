@@ -1,0 +1,30 @@
+.donation-form-container {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 20px;
+    
+  }
+  
+  .donation-form {
+    width: 100%;
+    max-width: 600px; /* Adjust max width for responsiveness */
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 0;
+  }
+  
+  .map-container {
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 20px;
+  }
+  

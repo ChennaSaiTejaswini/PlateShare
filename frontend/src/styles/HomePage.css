@@ -1,0 +1,222 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  width:100%;
+}
+
+.homepage-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding-top:0px;
+  background-color: #f9f9f9;
+}
+
+/* Header Styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  padding-bottom: 0px;
+  background-color: rgb(4, 4, 88);
+  color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo-title {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 140px;
+  width: auto;
+  margin-right: 15px;
+}
+
+.site-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px 20px;
+  
+  
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  min-width: 120px; /* Prevents excessive shrinking */
+  max-width: 150px; /* Prevents excessive stretching */
+  text-align: center;
+  
+}
+
+.primary {
+  padding:5px;
+  background-color: #ffffff;
+  color: #ff7043;
+  border: 2px solid #ffffff;
+}
+
+.primary:hover {
+  background-color: #ff5722;
+  color: white;
+}
+
+.secondary {
+  background-color: #ffffff;
+  color: #ff7043;
+  border: 2px solid #ffffff;
+}
+
+.secondary:hover {
+  background-color: #ff5722;
+  color: white;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 20px 20px;
+  background: url("../images/hero-bg.jpg") no-repeat center center/cover;
+  color: white;
+  
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color:navy;
+  font-weight:bold;
+}
+
+.hero p {
+  font-size: 18px;
+  max-width: 600px;
+  margin: 0 auto;
+  color:#ff5722;
+  font-size:x-large;
+}
+
+/* How It Works Section */
+.how-it-works {
+  text-align: center;
+  padding: 60px 20px;
+ 
+}
+
+.how-it-works-title {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color:#09128f;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  padding-bottom: 50px;
+  
+}
+
+.card {
+  background: white;
+  background-color: whitesmoke;
+  padding: 30px;
+  width: 280px;
+  border-radius: 10px;
+  border:rgb(7, 7, 222) solid;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card-icon {
+  font-size: 50px;
+  color: #ff7043;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.card p {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Footer Styles */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  margin-top: auto;
+}
+/* ✅ Responsive Styles */
+@media (max-width: 768px) {
+  .auth-buttons {
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+  }
+
+  .btn {
+    font-size: 14px;
+    min-width: 100px;
+    padding: 8px 16px;
+  }
+
+  .site-title {
+    font-size: 18px;
+  }
+
+  .logo {
+    height: 80px;
+  }
+}
+
+@media (max-width: 480px) {
+  .auth-buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .btn {
+    width: 100%;
+    max-width: 200px;
+  }
+
+  .site-title {
+    font-size: 16px;
+  }
+
+  .logo {
+    height: 60px;
+  }
+}

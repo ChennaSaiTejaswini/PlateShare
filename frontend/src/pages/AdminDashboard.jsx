@@ -34,7 +34,7 @@ const AdminDashboard = () => {
         headers: { Authorization: `Bearer ${token}` }
       };
 
-      const response = await axios.get("http://localhost:5000/api/admin/users", config);
+      const response = await axios.get("https://plateshare-backend.onrender.com/api/admin/users", config);
       setUsers(response.data.users);
     } catch (error) {
       console.error("Error fetching users", error);

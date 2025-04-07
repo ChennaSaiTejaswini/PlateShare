@@ -16,7 +16,7 @@ const CharityDashboard = () => {
   useEffect(() => {
     const fetchDonations = async () => {
       try {
-        const response = await axios.get("http://localhost:5000/api/donations");
+        const response = await axios.get("https://plateshare-backend.onrender.com/api/donations");
         setDonations(response.data);
       } catch (error) {
         console.error("Error fetching donations:", error);
@@ -27,7 +27,7 @@ const CharityDashboard = () => {
 
   const acceptDonation = async (donationId) => {
     try {
-      await axios.put(`http://localhost:5000/api/donations/${donationId}/accept`, { 
+      await axios.put(`https://plateshare-backend.onrender.com/api/donations/${donationId}/accept`, { 
         charityEmail: localStorage.getItem("charityEmail") 
       });
       setDonations((prevDonations) =>
@@ -45,7 +45,7 @@ const CharityDashboard = () => {
 
   const markAsCollected = async (donationId) => {
     try {
-      await axios.put(`http://localhost:5000/api/donations/${donationId}/collect`);
+      await axios.put(`https://plateshare-backend.onrender.com/api/donations/${donationId}/collect`);
       setDonations((prevDonations) =>
         prevDonations.map((donation) =>
           donation._id === donationId ? { ...donation, status: "Collected" } : donation

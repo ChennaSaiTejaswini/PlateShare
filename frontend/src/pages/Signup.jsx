@@ -55,7 +55,7 @@ const Signup = () => {
             <Form.Select value={userType} onChange={(e) => setUserType(e.target.value)}>
               <option value="donor">Donor</option>
               <option value="charity">Charity</option>
-              <option value="admin">Admin</option>
+              
             </Form.Select>
           </Form.Group>
 

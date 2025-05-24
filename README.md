@@ -1,56 +1,40 @@
-PlateShare
-PlateShare is a full-stack MERN web application designed to connect food donors with recipients, helping reduce food waste and support communities in need.
+# PlateShare
 
-🍽️ Key Features
-User Roles: Login as Donor or Charity.
+PlateShare is a full-stack MERN web app that connects food donors and recipients to reduce food waste and support those in need.
 
-Donor Dashboard: Schedule, manage, and track food donations easily.
+## 🍽️ Key Features
+- Login as Donor or Charity
+- Donor Dashboard: Schedule & track donations
+- Charity Dashboard: View, accept, and update donation status
+- Email notifications keep donors informed
+- Admin Panel to manage users and donations
 
-Charity Dashboard: View available donations, accept them, and update donation status.
+## 🔗 Live Demo
+Check out the live site: [https://lnkd.in/g7WwN2qA](https://lnkd.in/g7WwN2qA)
 
-Email Notifications: Keep donors informed about their donation status.
+## Screenshots
 
-Admin Panel: Manage users, donations, and overall platform health.
+### Homepage
+![Homepage](images/homepage.png)
 
-🔧 Technologies Used
-Frontend: React.js
+### Login Page
+![Login Page](images/login.png)
 
-Backend: Node.js, Express.js
+### Signup Page
+![Signup Page](images/signup.png)
 
-Database: MongoDB
+### Donor Dashboard
+![Donor Dashboard](images/donor_dashboard.png)
 
-Authentication: JWT / Passport.js (if applicable)
+### Charity Dashboard
+![Charity Dashboard](images/charity_dashboard.png)
 
-Email Service: (e.g., Nodemailer, SendGrid, etc., if used)
+### My Donation Schedule
+![My Donation Schedule](images/donation_schedule.png)
 
-Deployment: (Add hosting details if applicable)
+## Technologies Used
+- MongoDB
+- Express.js
+- React.js
+- Node.js
 
-🚀 Live Demo
-Check out the live site here:
-https://lnkd.in/g7WwN2qA
-
-📥 Installation and Setup (Optional if you want to add)
-Clone the repo:
-
-bash
-Copy
-Edit
-git clone <repository-url>
-Install dependencies for both frontend and backend:
-
-bash
-Copy
-Edit
-cd client
-npm install
-cd ../server
-npm install
-Create a .env file for environment variables (DB connection, email credentials, JWT secret, etc.).
-
-Run the development server:
-
-bash
-Copy
-Edit
-npm run dev
-Open http://localhost:3000 in your browser.

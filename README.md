@@ -29,7 +29,7 @@ Check out the live site: [https://lnkd.in/g7WwN2qA](https://lnkd.in/g7WwN2qA)
 ![Charity Dashboard](charity_pg.png)
 
 ### My Donation Schedule
-![My Donation Schedule](images/donation_schedule.png)
+![My Donation Schedule](Screenshot 2025-05-24 100956.png)
 
 ## Technologies Used
 - MongoDB

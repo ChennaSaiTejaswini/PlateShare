@@ -15,7 +15,7 @@ Check out the live site: [https://lnkd.in/g7WwN2qA](https://lnkd.in/g7WwN2qA)
 ## Screenshots
 
 ### Homepage
-![Homepage](images/homepage.png)
+![Homepage](frontend/src/images/homepage.png)
 
 ### Login Page
 ![Login Page](images/login.png)

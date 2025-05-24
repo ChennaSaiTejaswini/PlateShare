@@ -15,19 +15,18 @@ Check out the live site: [https://lnkd.in/g7WwN2qA](https://lnkd.in/g7WwN2qA)
 ## Screenshots
 
 ### Homepage
-![Homepage](frontend/src/images/homepage.png)
+![Homepage](homepage.png)
 
 ### Login Page
-![Login Page](images/login.png)
+![Login Page](login_pg.png)
 
-### Signup Page
-![Signup Page](images/signup.png)
+
 
 ### Donor Dashboard
-![Donor Dashboard](images/donor_dashboard.png)
+![Donor Dashboard](donor_pg.png)
 
 ### Charity Dashboard
-![Charity Dashboard](images/charity_dashboard.png)
+![Charity Dashboard](charity_pg.png)
 
 ### My Donation Schedule
 ![My Donation Schedule](images/donation_schedule.png)
